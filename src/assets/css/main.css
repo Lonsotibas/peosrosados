@@ -1,0 +1,14 @@
+@import './base.css';
+
+/* App */
+#app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-weight: normal;
+}
+
+/* Tarjetas */
+#card {
+  background-color: #fff;
+}
