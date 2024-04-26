@@ -8,7 +8,21 @@
   font-weight: normal;
 }
 
+/* Views */
+.view {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 20px;
+}
+
 /* Tarjetas */
-#card {
-  background-color: #fff;
+.card {
+  box-shadow: 4px var(--color-card-shadow);
+  border-radius: 10px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: var(--color-card-bg);
 }

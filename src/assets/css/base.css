@@ -12,10 +12,10 @@
   --black-mute: #282828;
 
   /* Colores Principales */
-  --arylide-yellow: #e8cf56;
-  --thistle: #e9cffc;
-  --non-photo-blue: #bbecfd;
-  --lavender-pink: #fcadcc;
+  --arylide-yellow: rgba(232, 207, 86, 1);
+  --thistle: rgba(233, 207, 252, 1);
+  --non-photo-blue: rgba(187, 236, 253, 1);
+  --lavender-pink: rgba(252, 173, 204, 1);
 
   /* Colores especificos por tema */
   /* Tema Claro */
@@ -44,9 +44,17 @@
   --color-background-mute: var(--white-mute);
 
   --color-heading: var(--title-light);
+  --color-text: var(--black-soft);
 
   --color-link: var(--link-light);
   --color-link-hover: var(--link-hover-light);
+
+  /* Componentes */
+  --color-card-bg: var(--white-soft);
+  --color-card-shadow: linear-gradient(90deg, var(--color-background) 0%, rgba(0, 0, 0, 1) 100%);
+
+  --icon-btn-theme: url('../icons/thorn-spike-heart.png');
+  --icon-btn-top: -5px;
 }
 /* Tema Oscuro */
 :root.dark {
@@ -55,9 +63,17 @@
   --color-background-mute: var(--black-mute);
 
   --color-heading: var(--title-dark);
+  --color-text: var(--white-soft);
 
   --color-link: var(--link-dark);
   --color-link-hover: var(--link-hover-dark);
+
+  /* Componentes */
+  --color-card-bg: var(--arylide-yellow);
+  --color-card-shadow: linear-gradient(90deg, var(--color-background) 0%, 100%);
+
+  --icon-btn-theme: url('../icons/crown-of-thornes.png');
+  --icon-btn-top: 0;
 }
 
 *,

@@ -8,9 +8,9 @@ let title = 'Peos Rosados'
     <h1 id="header-title">{{ title }}</h1>
     <nav id="navbar">
       <ul id="nav-menu">
-        <li class="nav-menu-item"><RouterLink to="/">Archivo</RouterLink></li>
+        <li class="nav-menu-item"><RouterLink to="/archive">Archivo</RouterLink></li>
         <li class="nav-menu-item"><RouterLink to="/">Quien soy</RouterLink></li>
-        <li class="nav-menu-item"><RouterLink to="/">Catalogo</RouterLink></li>
+        <li class="nav-menu-item"><RouterLink to="/catalogue">Catalogo</RouterLink></li>
       </ul>
     </nav>
   </header>
